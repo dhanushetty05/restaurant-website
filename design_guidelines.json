@@ -1,0 +1,193 @@
+{
+  "identity": {
+    "persona": "E1",
+    "role": "Creative Designer (Top 1%)",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "project_context": {
+    "app_name": "Urban Plate Restaurant",
+    "app_type": "Hybrid (Marketing + E-commerce)",
+    "theme": "Warm Earth (Modern, Premium, Organic)",
+    "target_audience": "Restaurant owners, Foodies",
+    "key_actions": ["Book Table", "Order Online"]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "weights": ["400", "600", "700"],
+      "usage": "Main headings, Section titles, Dish names",
+      "letter_spacing": "tracking-tight"
+    },
+    "body": {
+      "font_family": "DM Sans, sans-serif",
+      "weights": ["400", "500", "700"],
+      "usage": "Paragraphs, UI elements, Prices, Buttons",
+      "letter_spacing": "tracking-normal"
+    },
+    "accents": {
+      "font_family": "Caveat, cursive",
+      "usage": "Chef's notes, 'Special Offer' tags, decorative elements"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#C05621",
+        "foreground": "#FFFFFF",
+        "description": "Burnt Orange / Terracotta - Appetizing, Warm"
+      },
+      "secondary": {
+        "DEFAULT": "#5F6F52",
+        "foreground": "#FFFFFF",
+        "description": "Sage Green - Fresh, Organic, Natural"
+      },
+      "background": {
+        "DEFAULT": "#FDFBF7",
+        "alt": "#F5F2EB",
+        "description": "Warm Cream / Off-White - Soft, inviting base"
+      },
+      "foreground": {
+        "DEFAULT": "#2D2424",
+        "muted": "#5C5454",
+        "description": "Warm Charcoal / Dark Brown - Softer than black"
+      },
+      "accent": {
+        "DEFAULT": "#D97706",
+        "foreground": "#FFFFFF",
+        "description": "Golden Amber - Highlights, Stars, Ratings"
+      },
+      "border": "#E2D9D0"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7))",
+      "warm_glow": "radial-gradient(circle at center, rgba(192, 86, 33, 0.15) 0%, rgba(253, 251, 247, 0) 70%)"
+    }
+  },
+  "spacing": {
+    "scale": ["p-1", "p-2", "p-4", "p-6", "p-8", "p-12", "p-16", "p-20", "p-24", "p-32"],
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-20 md:py-32"
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode A for Gallery, Mode B for Menu)",
+    "container_width": "max-w-7xl mx-auto",
+    "rules": [
+      "Mobile-first: grid-cols-1 by default",
+      "Asymmetry: Use col-span-2 or row-span-2 for featured dishes",
+      "Breathing Room: Use gap-8 or gap-12 for marketing sections"
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground rounded-full px-8 py-3 font-medium hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+      "secondary": "bg-transparent border-2 border-primary text-primary rounded-full px-8 py-3 font-medium hover:bg-primary/5 transition-all",
+      "ghost": "text-foreground hover:text-primary font-medium transition-colors"
+    },
+    "cards": {
+      "dish_card": "bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-border/50 group",
+      "feature_card": "bg-background-alt p-8 rounded-3xl border border-border/50 hover:border-primary/20 transition-colors"
+    },
+    "inputs": {
+      "style": "bg-white border-border focus:border-primary focus:ring-primary/20 rounded-xl h-12 px-4"
+    },
+    "navigation": {
+      "style": "fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border/50 transition-all"
+    }
+  },
+  "images": {
+    "hero": [
+      {
+        "url": "https://images.pexels.com/photos/33474124/pexels-photo-33474124.jpeg",
+        "alt": "Gourmet plating high end",
+        "category": "hero_main"
+      },
+      {
+        "url": "https://images.pexels.com/photos/35420084/pexels-photo-35420084.jpeg",
+        "alt": "Fine dining atmosphere",
+        "category": "hero_bg"
+      }
+    ],
+    "ambience": [
+      {
+        "url": "https://images.unsplash.com/photo-1761062083136-dcfbd2a000f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXN0YXVyYW50JTIwaW50ZXJpb3IlMjB3YXJtJTIwbGlnaHRpbmclMjBlYXJ0aHklMjB0b25lc3xlbnwwfHx8fDE3Njg4Mzc0NDl8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Warm cozy booths",
+        "category": "interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1673993445820-bf5721697cfa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjByZXN0YXVyYW50JTIwaW50ZXJpb3IlMjB3YXJtJTIwbGlnaHRpbmclMjBlYXJ0aHklMjB0b25lc3xlbnwwfHx8fDE3Njg4Mzc0NDl8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Wooden tables restaurant",
+        "category": "interior"
+      }
+    ],
+    "food": [
+      {
+        "url": "https://images.unsplash.com/photo-1744421461525-3ece303e8a37?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxjaGVmJTIwcGxhdGluZyUyMGZvb2QlMjBwcm9mZXNzaW9uYWwlMjBraXRjaGVufGVufDB8fHx8MTc2ODgxMTI4Nnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Chef garnishing cheesecake",
+        "category": "menu_item"
+      },
+      {
+        "url": "https://images.pexels.com/photos/32742933/pexels-photo-32742933.jpeg",
+        "alt": "Delicious main course",
+        "category": "menu_item"
+      }
+    ],
+    "people": [
+      {
+        "url": "https://images.pexels.com/photos/9124697/pexels-photo-9124697.jpeg",
+        "alt": "Friends dining happy",
+        "category": "lifestyle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1761095596588-e85f6a028894?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwyfHxjaGVmJTIwcGxhdGluZyUyMGZvb2QlMjBwcm9mZXNzaW9uYWwlMjBraXRjaGVufGVufDB8fHx8MTc2ODgxMTI4Nnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Chefs in kitchen",
+        "category": "about_team"
+      }
+    ]
+  },
+  "visual_enhancers": {
+    "textures": "Subtle grain overlay (opacity 0.03) on backgrounds to reduce digital flatness",
+    "shadows": "Soft, diffuse shadows: shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+    "border_radius": "rounded-2xl or rounded-3xl for a friendly, organic feel",
+    "icons": "Lucide React (Stroke width 1.5px for elegance)"
+  },
+  "universal_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ],
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react', 'framer-motion', 'clsx', 'tailwind-merge' if not present.",
+    "2. THEME: Update tailwind.config.js with the 'Warm Earth' color palette defined in 'colors' section. Add the fonts.",
+    "3. COMPONENTS: Create a 'Navbar' that is sticky, glassmorphic, and has a 'Book Table' CTA.",
+    "4. HERO: Build a Hero section using the 'hero_main' image. Use a split layout or a centered layout with a massive serif headline.",
+    "5. MENU: Create a 'MenuSection' with tabs (Starters, Mains, Desserts). Use the 'dish_card' style.",
+    "6. BOOKING: Create a 'BookingForm' using Shadcn UI components (Calendar, Select, Input). Style it to look premium (no default borders).",
+    "7. GALLERY: Implement a Bento Grid gallery using the 'ambience' and 'food' images.",
+    "8. FOOTER: Large footer with 'Urban Plate' branding, map placeholder, and social links.",
+    "9. PAGES: Assemble Home, About, Menu, Booking, Contact pages using these components.",
+    "10. REVIEW: Ensure all text has sufficient contrast (APCA) and spacing is generous (py-20+)."
+  ]
+}
